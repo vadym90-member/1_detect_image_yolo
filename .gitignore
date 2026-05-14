@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Data
+data/raw/**
+!data/raw/.gitkeep
+data/interim/**
+!data/interim/.gitkeep
+data/yolo/images/**
+data/yolo/labels/**
+!data/yolo/**/.gitkeep
+
+# Training artifacts
+runs/**
+!runs/.gitkeep
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
